@@ -1,0 +1,28 @@
+// @import "@fortawesome/fontawesome-free/css/all.css";
+// @import "node_modules/bootstrap/scss/bootstrap";
+
+html, body{
+    margin:0;
+    padding:0;
+}
+
+.aquarium{
+    // background-color: rgb(72, 150, 137);
+    background-image: url('static/oceanfloor.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+
+
+.coral{
+    width: 15%;
+    // position: absolute;
+    margin-top: 32%;
+    margin-left: 8%;
+}
+
+
+
+
