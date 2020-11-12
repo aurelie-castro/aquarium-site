@@ -66,14 +66,14 @@ var huitieme = yellow.clone().css({
     "width": "5%",
     "margin-left": "18%",
     "margin-top": "30%",
-    "position": "absolute"
+    "position": "absolute",
 });
 
 var neuvieme = yellow.clone().css({
     "width": "5%",
     "margin-left": "25%",
     "margin-top": "2%",
-    "position": "absolute"
+    "position": "absolute",
 });
 
 $('.aquarium').append(premier, deuxieme, troisieme, quatrieme, cinquieme, sixieme, septieme, huitieme, neuvieme);
@@ -117,4 +117,4 @@ setInterval(function(){
 setInterval(function(){
     var avtGauche = parseInt(neuvieme.css('left'), 10, ('top'));
     neuvieme.css('left', `${avtGauche + 1}px`);
-}, 250);
+}, 100);
